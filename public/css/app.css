@@ -1,0 +1,175 @@
+/*
+Weboldal törzs
+ */
+body {
+    padding-top: 90px;
+}
+
+.navbar, .footer{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*
+Auth formok
+ */
+.auth {
+    width: 500px;
+    font-size: 12px;
+}
+
+.open-modal-form {
+    float: right;
+}
+
+.dropdown button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 8px;
+}
+
+
+
+/*
+Eredményfelviteli tábla
+ */
+#table-teamsPointRecord-list {
+    font-size: 10px;
+}
+
+/*
+ Csapatok elért eredményének táblázata
+ */
+#table-teamsSumPoint-list {
+    width: 70%;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-top: 50px;
+    border-top: 1px solid black;
+}
+
+/*
+ Csapatok elért eredményének táblázata
+ */
+#table-lot-list {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 50px;
+    border-top: 1px solid black;
+}
+
+/*
+ Csapatok táblázata a Csapatok menüben
+ */
+
+/*
+ Csapatokkapitányok táblázata a Csapatok menüben
+ */
+#table-teamTeam-list,
+#table-teamTeamCaptain-list,
+#table-teamPlayers-list,
+#table-teamDataRecorders-list {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 50px;
+    border-top: 1px solid black;
+}
+
+/*
+ Csapatokkapitány szerkesztése a Csapatok menüben
+ */
+#table-teamCaptainEdit-list {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/*
+ Játékosok listája a Cssapatok / játékosok menüben
+ */
+#table-teamPlayersPlayers-list,
+#table-teamDataRecordersDataRecorders-list {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/*
+ Adminok listája az Törzsadatok menüben
+ */
+#table-adminAdmin-list,
+#table-adminRole-list,
+#table-adminGroup-list,
+#table-adminTurn-list,
+#table-adminTrack-list,
+#table-adminDay-list {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+
+/*
+ Csapatok a Listák menüben
+ */
+ #table-listTeamNumber-list,
+ #table-listTeam-list,
+ #table-listTeamTeamCaptain-list,
+ #table-listTeamTeamCaptain-list,
+ #table-listPlayer-list,
+ #table-listLotsGroup-list,
+ #table-listLotsTeam-list,
+ #table-gameSingleRecord1-list,
+ #table-gameSingleRecord2-list,
+ #table-gamePairRecord-list {
+     width: 100%;
+     font-size: 12px;
+     margin-top: 20px;
+ }
+
+
+/*
+ Táblázatok fejléc felirata
+ */
+.caption {
+    font-size: large;
+}
+
+.actionMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.actionMenuView {
+    padding-left: 5px;
+}
+
+
+
+
+/*
+Modal
+
+*/
+.modal {
+    font-size: 12px;
+}
+
+/*
+Szerkesztési formok
+ */
+.editForm {
+    font-size: 12px;
+    width: 500px;
+}
+
+
+.lots-group-table
+ {
+    padding-bottom: 80px
+ }
